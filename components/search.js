@@ -53,7 +53,12 @@ const styles = StyleSheet.create({
   button: {
     margin: 30,
     marginTop: 15,
-    width:"20%"
+    width:"20%",
+    shadowColor: 'orange',
+    shadowOffset: { height: 8, width: 5 },
+    shadowOpacity: 2,
+    shadowRadius: 4,
+    borderRadius: 10,
   },
 
   input: {},
